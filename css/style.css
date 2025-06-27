@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Reset */
+body {
+  background-color: #5f0505;
+  color: #fff7d3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Cabeçalho */
+
+header {
+  background-color: #580505;
+  box-shadow: 0 1px 8px #0000006b;
+  /* border-bottom: 1px solid #fff; */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+main.container {
+  margin: 30px auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff7d3;
+  font-weight: bold;
+  transition: 0.4s;
+  padding: 10px 5px;
+  /* background-color: #fff7d3; */
+}
+
+.nav a:hover {
+  color: #777464;
+}
+
+/* Conteúdo */
+
+main {
+  padding: 40px;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.content span {
+  color: #d0ff00;
+  text-shadow: 0 1px 30px #ffffff;
+}
+
+.content p {
+  color: #b9b49b;
+  line-height: 2;
+  text-align: justify;
+  width: 550px;
+}
+
+.input-group {
+  margin-top: 24px;
+}
+
+.input-group input {
+  padding: 20px 20px;
+  background: linear-gradient(100deg, #3a1212, transparent);
+  /* background-color: #3a1212; */
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 30px;
+  width: 75%;
+}
+
+input::placeholder {
+  color: #a79595;
+  font-weight: bold;
+}
+
+.input-group button {
+  padding: 20px 60px;
+  background-color: #fff7d3;
+  border: none;
+  outline: none;
+  color: #000000;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #d0ff00;
+}
+
+.image-container {
+  max-width: 40%;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.elipse {
+  background: linear-gradient(135deg, #d0ff00, transparent);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: -20%;
+  z-index: -1;
+}
+
+footer {
+  background-color: #580505;
+  box-shadow: 0 1px 8px #0000006b;
+  text-align: center;
+}
